@@ -729,7 +729,7 @@ h1, h2, h3, h4, h5, h6 {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 15px;
     margin-top: 60px;
     position: relative;
     z-index: 3;
@@ -757,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-image {
-    height: 250px;
+    height: 180px;
     overflow: hidden;
 }
 
@@ -773,15 +773,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-content {
-    padding: 30px;
+    padding: 20px;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .service-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
     color: var(--dark-navy);
     font-weight: 700;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
@@ -789,10 +789,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-content p {
     color: var(--dark-navy);
-    margin-bottom: 20px;
-    line-height: 1.6;
+    margin-bottom: 15px;
+    line-height: 1.5;
     font-weight: 500;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
 }
 
 .service-features {
@@ -802,11 +803,12 @@ h1, h2, h3, h4, h5, h6 {
 .service-features li {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 8px;
+    margin-bottom: 8px;
     color: var(--dark-navy);
     font-weight: 500;
     text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
 }
 
 .service-features i {
