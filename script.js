@@ -348,3 +348,26 @@ loadingStyle.textContent = `
     }
 `;
 document.head.appendChild(loadingStyle); 
+
+// Gallery animations with 3-second delays
+function animateGalleryItems() {
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    galleryItems.forEach(item => {
+        const delay = parseInt(item.getAttribute('data-delay')) || 0;
+        
+        setTimeout(() => {
+            item.classList.add('animate');
+        }, delay * 1000);
+    });
+}
+
+// Initialize gallery animations when page loads
+document.addEventListener('DOMContentLoaded', () => {
+    // Existing code...
+    
+    // Start gallery animations
+    setTimeout(() => {
+        animateGalleryItems();
+    }, 1000);
+}); 
