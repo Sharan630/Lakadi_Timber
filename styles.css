@@ -890,7 +890,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 1px solid rgba(212, 175, 55, 0.1);
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -901,7 +901,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-image {
-    height: 180px;
+    height: 220px;
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -918,46 +918,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-content {
-    padding: 20px;
+    padding: 25px;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .product-content h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
     color: var(--dark-navy);
     font-weight: 700;
 }
 
 .product-content p {
     color: var(--dark-navy);
-    margin-bottom: 15px;
-    line-height: 1.5;
+    margin-bottom: 20px;
+    line-height: 1.6;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .product-specs {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     flex: 1;
 }
 
 .spec-item {
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-bottom: 8px;
+    gap: 10px;
+    margin-bottom: 12px;
     color: var(--dark-navy);
     font-weight: 500;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
 }
 
 .spec-item i {
     color: var(--primary-gold);
-    font-size: 14px;
-    width: 16px;
+    font-size: 16px;
+    width: 18px;
 }
 
 .product-actions {
@@ -1857,11 +1857,11 @@ h1, h2, h3, h4, h5, h6 {
     
     .product-card {
         height: auto;
-        min-height: 350px;
+        min-height: 450px;
     }
     
     .product-image {
-        height: 200px;
+        height: 250px;
     }
     
     .gallery-grid {
@@ -1886,19 +1886,19 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .product-card {
-        min-height: 320px;
+        min-height: 400px;
     }
     
     .product-content {
-        padding: 15px;
+        padding: 20px;
     }
     
     .product-content h3 {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     
     .product-content p {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
     }
     
     .gallery-grid {
