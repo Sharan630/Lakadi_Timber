@@ -823,6 +823,8 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 15px;
     border: 2px solid #FFD700;
     box-shadow: 0 8px 25px rgba(255, 215, 0, 0.15);
+    position: relative;
+    z-index: 5;
 }
 
 .services-cta .btn {
@@ -843,6 +845,8 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     min-width: 200px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    pointer-events: auto;
 }
 
 .services-cta .btn:hover {
