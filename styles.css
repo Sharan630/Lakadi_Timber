@@ -817,43 +817,44 @@ h1, h2, h3, h4, h5, h6 {
 
 .services-cta {
     text-align: center;
-    margin-top: 60px;
-    padding: 40px 0;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    border: 3px solid var(--primary-gold);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    padding: 25px 0;
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 15px;
+    border: 2px solid var(--primary-gold);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .services-cta .btn {
-    font-size: 1.3rem;
-    padding: 25px 60px;
-    border-radius: 50px;
+    font-size: 1rem;
+    padding: 15px 35px;
+    border-radius: 30px;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-weight: 600;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
     background: var(--primary-gold);
     color: var(--white);
     text-decoration: none;
     display: inline-block;
     position: relative;
-    border: 3px solid var(--primary-gold);
+    border: 2px solid var(--primary-gold);
     cursor: pointer;
+    min-width: 200px;
 }
 
 .services-cta .btn:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 50px rgba(212, 175, 55, 0.7);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.6);
     background: var(--secondary-gold);
     border-color: var(--secondary-gold);
     color: var(--white);
 }
 
 .services-cta .btn:active {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.6);
+    transform: translateY(-1px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.5);
 }
 
 .products-hero {
