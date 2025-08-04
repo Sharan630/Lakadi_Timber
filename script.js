@@ -76,14 +76,15 @@ window.addEventListener('scroll', () => {
 function animateCounter(element, target, duration = 2000) {
     let start = 0;
     const increment = target / (duration / 16);
+    const hasPercentage = element.textContent.includes('%');
     
     function updateCounter() {
         start += increment;
         if (start < target) {
-            element.textContent = Math.floor(start);
+            element.textContent = Math.floor(start) + (hasPercentage ? '%' : '');
             requestAnimationFrame(updateCounter);
         } else {
-            element.textContent = target;
+            element.textContent = target + (hasPercentage ? '%' : '');
         }
     }
     
