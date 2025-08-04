@@ -778,8 +778,9 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
+    word-wrap: break-word;
 }
 
 .service-features {
@@ -959,6 +960,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.6;
     font-weight: 400;
     font-size: 1rem;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
 }
 
 .product-specs {
