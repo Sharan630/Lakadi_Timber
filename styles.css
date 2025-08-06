@@ -752,11 +752,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-content {
-    padding: 18px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .service-content h3 {
@@ -938,12 +936,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product-content {
-    padding: 25px 25px 20px 25px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: visible;
-    justify-content: space-between;
 }
 
 .product-content h3 {
@@ -990,7 +985,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .product-actions {
     text-align: center;
-    margin-top: 20px;
+    margin-top: auto;
     flex-shrink: 0;
 }
 
