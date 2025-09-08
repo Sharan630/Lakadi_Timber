@@ -53,9 +53,9 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Add fade-in class to elements and observe them (excluding gallery for instant display)
+// Add fade-in class to elements and observe them
 document.addEventListener('DOMContentLoaded', () => {
-    const elementsToAnimate = document.querySelectorAll('.about-card, .service-card, .stat-item, .feature-item, .contact-item');
+    const elementsToAnimate = document.querySelectorAll('.about-card, .service-card, .stat-item, .feature-item, .contact-item, .gallery-item');
     
     elementsToAnimate.forEach(el => {
         el.classList.add('fade-in');
@@ -350,4 +350,25 @@ loadingStyle.textContent = `
 `;
 document.head.appendChild(loadingStyle); 
 
-// Gallery items should appear immediately; no delayed animation
+// Gallery animations with 3-second delays
+function animateGalleryItems() {
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    galleryItems.forEach(item => {
+        const delay = parseInt(item.getAttribute('data-delay')) || 0;
+        
+        setTimeout(() => {
+            item.classList.add('animate');
+        }, delay * 1000);
+    });
+}
+
+// Initialize gallery animations when page loads
+document.addEventListener('DOMContentLoaded', () => {
+    // Existing code...
+    
+    // Start gallery animations
+    setTimeout(() => {
+        animateGalleryItems();
+    }, 1000);
+}); 
